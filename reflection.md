@@ -4,26 +4,23 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 ## 1. What was broken when you started?
 
-- What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the secret number kept changing" or "the hints were backwards").
+- I expeted the game to reset after guessing the correct number but new game does not function at all, the messege instructing me to reset the game does not go away, I also noticed on the debug log the only numbers that show up are outside the scope of the game, in my case "1111" while inputs that should be in the debug log does not log at all unless i input twice. Inputting a number above 100 should give me a error and a messege instead it lets me input any number i want, it should give me a error. changing the diffculty does not change the target number, i expected it to change when changing the diffculy 
 
 ---
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-- Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-- Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
-
+The AI suggested for the new game bug that i change the logic for new game unfortunatly my copilot was running into issues and i had to close VS code then close that chat tab so i lost the exact suggestion.
+For the debug commands the AI simply suggested that the debug extender be moved to the bottom of the script, applying this fix made it work, now each number logs the moment i pressed it, it told me it was a issue with streamlet and how it worked.
+I Tested both fixes by restarting the app itself then running it, for each error i got for the new game bug from the AI's fixes i pasted the error into chat and asked the AI what the issue could of been, it eventully managed to get it correct after two revisions.
 ---
 
 ## 3. Debugging and testing your fixes
 
-- How did you decide whether a bug was really fixed?
-- Describe at least one test you ran (manual or using pytest)  
+- I decided it was fixed after running tests in the app at least five times at a miniumum
+- for the new game bug, I simply inputted the right number then hit "new game" if no errors popped up then I simply won again then tested to see if it still worked. 
   and what it showed you about your code.
-- Did AI help you design or understand any tests? How?
+- It did a fairly good job at explaining why it fixed certian things, i appracated that it explained that some issues such as the debug issue was a streamlit specfic issue.
 
 ---
 

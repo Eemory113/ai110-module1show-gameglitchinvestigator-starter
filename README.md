@@ -25,9 +25,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [The games purpose is to be a guessing game where the player has to guess a number between 1 to 100] Describe the game's purpose.
+- [I expeted the game to reset after guessing the correct number but new game does not function at all, the messege instructing me to reset the game does not go away, I also noticed on the debug log the only numbers that show up are outside the scope of the game, in my case "1111" while inputs that should be in the debug log does not log at all unless i input twice. Inputting a number above 100 should give me a error and a messege instead it lets me input any number i want, it should give me a error. changing the diffculty does not change the target number, i expected it to change when changing the diffculy ] Detail which bugs you found.
+- [ I applied the AI suggested fixes for the new game glitch but had to ask the AI to fix some minor mistakes it made for that, for the debug output i asked it to fix it that and it fixed it no issue the first time] Explain what fixes you applied.
 
 ## 📸 Demo
 
