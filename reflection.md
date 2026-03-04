@@ -38,3 +38,4 @@ I Tested both fixes by restarting the app itself then running it, for each error
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+I think the habit id change is to always double check AI code more so then usual but besides that id mostly keep everything the same, id also use the termanal to commit changes

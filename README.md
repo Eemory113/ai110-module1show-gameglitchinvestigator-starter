@@ -31,7 +31,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] [![alt text](<Screenshot 2026-03-03 at 18-18-29 Glitchy Guesser.png>)]
 
 ## 🚀 Stretch Features
 
